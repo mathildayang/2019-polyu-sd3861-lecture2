@@ -1,2 +1,1 @@
-# Hej!
-Hello World!
+Lecture 2
