@@ -20,12 +20,15 @@
             font-family: 'Varela Round', sans-serif;
             color:slategrey;
         }
+        .blue-color{
+            color:steelblue;
+        }
     </style>
     
 </head>
 
 <body>
-    <h1 id="first-heading">Mathilda</h1>
+    <h1 id="first-heading" class="blue-color">Mathilda</h1>
     <h1>Yang</h1>
     <svg class="pop" id="svg" width="300" height="300" viewbox="0 0 100 100">
         <filter id="blur">
@@ -34,7 +37,7 @@
         <path class="slidein" id="mountain" fill="#ab9457" d="" />
     </svg>
 
-    <button onclick="generateMountain()">Click Me</button>
+    <button class="blue-color" onclick="generateMountain()">Click Me</button>
     
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript" src="index.js"></script>
