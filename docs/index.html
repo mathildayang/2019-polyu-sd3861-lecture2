@@ -1,32 +1,36 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>Mathilda Yang</title>
 
-<link rel="stylesheet" type="text/css" href="styles.css">
-<style>
-    h1{
-        font-size:100px;color:darkolivegreen
-    }
-</style>
+<head>
+    <meta charset="UTF-8">
+    <title>Mathilda Yang</title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        h1 {
+            font-size: 100px;
+            color: darkolivegreen
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Mathilda</h1>
+    <h1 style="font-kerning: initial">Mathilda</h1>
+    <h1 style="font-kerning: initial">Yang</h1>
     <svg class="pop" id="svg" width="300" height="300" viewbox="0 0 100 100">
         <filter id="blur">
-          <feGaussianBlur stdDeviation="1" />
+            <feGaussianBlur stdDeviation="1" />
         </filter>
         <path class="slidein" id="mountain" fill="#ab9457" d="" />
     </svg>
-    
+
     <button onclick="generateMountain()">Click Me</button>
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript" src="index.js"></script>
     <script type="text/javascript">
-        $(document).ready(function(){
-            $('button').on('click', function(e){
+        $(document).ready(function () {
+            $('button').on('click', function (e) {
                 alert('New mountain is coming!');
             });
         });
@@ -34,4 +38,5 @@
 
 
 </body>
+
 </html>
